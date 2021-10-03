@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <title>Website for leaf</title>
+<link rel="stylesheet" href="sample.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+<script src="login.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="animation.css">
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+</head>
+<body>
+ <nav>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="index.php">Login/SignUp</a></li>
+  <li><a href="#contacts">Contacts</a></li>
+  <li><a href="#articles">Articles</a></li>
+  <li><a href="#about">About</a></li>
+ </ul>
+ <section id="home">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="images/img1.png" style="width:100%">
+  <div class="text"><h1>Protect nature and nature will protect you</h1></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/plant3.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/plant2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br><br>
+
+
+<section id="about">
+    <br>
+    <h3 class="title"><center>About Website</center></h3>
+    <div class="divider-2"><center><img src="https://static.ishaoutreach.org/static/assets/cauvery-calling/img/blue-divider.svg?a=345" alt=""></center></div>
+    <br><br>
+    <p align="justify" class="p2">  This website help people achieve independance by making it easier to start,run,and grow a business. We are reducing the barriers to business ownership to make commerce better for everyone.This website help people to sell and purchase different tupes of indoor and outdoor plants  <span id="dots">...</span><span id="more">
+    Ever since industrialization started the care for plants has made it to our least prioritylist, Even though mankind requires plants to balance the food chain that he’s a part of,but the plant enthusiasts are everywhere, be it big metropolitan cities or rural areas, sowe aim to bring in a platform that can connect these plant/nature enthusiasts and helpthem exchange/sell them plants or donate seeds/plants as part of the green initiativethat we started 2 years back.</span><button onclick="myFunction()" id="myBtn">Read more</button>
+</p><br>
+</section>
+   
+</section>
+</div>
+</nav>
+
+
+ <h3><center><u>Main Agenda</u></center></h3><br>
+ <p align="justify" class="p3"  >There are many reasons for unwanted plants. Perhaps the plant has become too large or you need to divide a plant to keep it healthy, and now you have more of the species than you need. Or maybe you just simply don’t want the plant anymore.  The perfect solution is donating unwanted plants. There are several options for giving plants away. Obviously, you might check with friends and family first, but institutions such as a local church, school, or community center may welcome your unwanted plants.
+
+ </p>
+ <h3><center><u>Donate Plants to Charity</u></center></h3><br>
+ <p>Another way to donate plants to charity is to check with your local non-profit thrift store. They may be interested in selling your unwanted plant and turning the profit around for their charitable endeavors. A garden donation made in this way can help your community benefit from programs such as child care, tax services, transportation, youth mentoring, literacy education, and various medical and residential services for those in need.
+
+</p><br>
+
+
+
+
+<h2><center><strong> "₹ " 1 per tree</strong></center></h2>
+
+
+<a href="checkout.php" target="_blank" ><h3><center>Donate Now</center></h3></a>
+
+<br>
+
+
+<quote><center>Save Tree Save Life</center></quote>
+<br>
+<section id="articles">
+    <h2><center><strong> Why Planting Is Important</strong></center></h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_dWJVHIE9S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c3GerbZMRWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/479789559?h=6bb7455d0d" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ibPe7iuTFZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<section id="contacts">
+     <h2><center><u>Contact us</u></center></h2>
+     <h3><center>information about us</center></h3>
+    <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="text">
+                <h3>ADDRESS</h3>
+                    <p>Bilekahalli Bengaluru, Karnataka India</p>
+                     </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+            <div class="text">
+            <h3>PHONE</h3>
+                <P>8073086326</P>
+             </div>
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+        <div class="text">
+        <h3>EMAIL</h3>
+            <P>support@bionicengineers.com</P> 
+        </div>
+    </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <span>Full Name</span>
+                    <input type="text" name="" required="required">
+                    
+                    </div>
+                    <div class="inputBox">
+                        <span>EMAIL</span>
+                        <input type="text" name="" required="required">
+                        
+                    </div>
+                    <div class="inputBox">
+                        <span>Type Your Message....</span>
+                    <textarea required="required"></textarea>
+                    
+                </div>
+                <input type="submit" name="" value="send">
+                <div class="inputBox">
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+</div>
+</body>
+</html>
